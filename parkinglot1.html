@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autonomous Parking Lot System</title>
+  <link rel="stylesheet" href="parkinglot1.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="action-button">
+      <span class="icon"></span>
+      Login Page
+    </a>
+    <a href="profile.html" class="action-button">
+      <span class="icon"></span>
+      Profile
+    </a>
+  </header>
+
+  <main>
+    <h1>Lot 1 Parking Spaces</h1>
+
+    <div id="parkingLot">
+      <!-- Parking spaces -->
+    </div>
+
+    <div id="parkingInfo">
+      <p>Available Spaces: <span id="availableSpaces">10</span></p>
+      <p>Occupied Spaces: <span id="occupiedSpaces">0</span></p>
+    </div>
+
+    <div class="buttons-container">
+      <button onclick="startAutonomousSimulation()">View Live</button>
+      <button onclick="stopAutonomousSimulation()">Disable Live Feed</button>
+    </div>
+  </main>
+
+  <footer>
+    <!-- No need for the "Login Page" link in the footer -->
+  </footer>
+
+  <script src="parkinglot1.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url(3.gif);
+    background-size: cover;
+    padding-top: 20px;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-button, h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 16px; /* Adjust the padding as needed */
+    border: none;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.action-button:hover, h1:hover {
+    background-color: #0f9b82;
+}
+
+main {
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    margin-top: 0; /* Remove default margin */
+}
+
+#parkingLot {
+    margin-top: 20px;
+}
+
+.parking-space {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 135px;
+    cursor: pointer;
+    border: 1px solid #333;
+    padding-bottom: 3%;
+}
+
+.empty {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.occupied {
+    background-color: #f44336;
+    color: #fff;
+}
+
+#parkingInfo {
+    margin-bottom: 20px;
+    color: #1abc9c;
+}
+
+.buttons-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #0f9b82;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.return {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+}
